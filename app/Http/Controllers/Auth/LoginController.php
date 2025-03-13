@@ -34,7 +34,7 @@ class LoginController extends Controller
         ]);
 
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
-            return redirect()->route(Auth::user()->role . '.dashboard');
+            return redirect()->route('dashboard');
         }
         return back()->withErrors(['email' => 'These credentials do not match our records.'])->withInput();
     }
