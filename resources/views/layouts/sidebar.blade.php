@@ -100,6 +100,19 @@
 						</li>
 					</ul>
 				</li>
+				<li>
+					<ul>
+						<li class="submenu">
+							<a href="javascript:void(0);" class="active subdrop">
+								<i class="ti ti-users"></i><span>Employees</span>
+								<span class="menu-arrow"></span>
+							</a>
+							<ul>
+								<li><a href="{{url('employees')}}" class="active">Employee Lists</a></li>
+							</ul>
+						</li>						
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</div>
